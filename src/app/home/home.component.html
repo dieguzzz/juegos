@@ -1,0 +1,24 @@
+<header>
+  <h1>ESTYGames</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#games">Games</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<div class="gameList">
+  <h2>Lista de Juegos Gratuitos:</h2>
+  <ul>
+    <li *ngFor="let game of data">
+      <div class="gameInfo">
+        <img [src]="game.thumbnail" alt="{{game.title}} image" class="gameImage">
+        <p [routerLink]="['/game', game.id]" class="gameTitle">{{game.title}}</p>
+        <p [routerLink]="['/game', game.id]">{{"Plataforma: " + game.platform}}</p>
+        <p [routerLink]="['/game', game.id]">{{"Género: " + game.genre}}</p>
+      </div>
+    </li>
+  </ul>
+</div>
+<footer>
+  <p>© 2021 ESTYGames</p>
+</footer>

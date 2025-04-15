@@ -1,0 +1,115 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2a2a2a;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  color: #ffcc00;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #ffcc00;
+}
+
+.gameList {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.gameList h2 {
+  text-align: center;
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+.gameList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.gameList li {
+  background-color: #333;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.gameList li:hover {
+  background-color: #444;
+}
+
+.gameInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gameTitle {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.gameList p {
+  margin: 5px 0;
+  cursor: pointer;
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.gameList p:hover {
+  text-decoration: underline;
+}
+
+.gameImage {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #2a2a2a;
+  padding: 10px 0;
+  text-align: center;
+  color: #f0f0f0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+}
