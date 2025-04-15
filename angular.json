@@ -41,7 +41,7 @@
             ],
             "scripts": [],
             "server": "",
-            "outputMode": "server",
+            "outputMode": "",
             "ssr": {
               "entry": ""
             }
